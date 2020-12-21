@@ -30,7 +30,7 @@ router.post('/', function (req, res, next) {
                 var username = creds[0];
                 var password = creds[1];
 
-                if((username == 'progressbiz') && (password == 'Jharkhand#1')) {   // Is the username/password correct?
+                if((username == 'test') && (password == 'test123')) {   // Is the username/password correct?
 						next();
                 }
                 else {
